@@ -21,6 +21,5 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find do |food|
     food == cheese_types[i]
-    i += 1
   end
 end
